@@ -155,4 +155,11 @@ let populationType = (population <= 33) ? "below" : "above";
 
 console.log(`${country} population is ${populationType} average!`)
 
-////better way to do it console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average`,);
+// Better way to do it console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average`,);
+
+////////////////////////
+// Coding Challenge 4 //
+////////////////////////
+let billValue = 100
+let tip = (50 > billValue && billValue < 300) ? billValue * .15 : billValue * .20;
+console.log(`the bill was ${billValue}, the tip ${tip}, therefore total ${billValue+tip}`)
